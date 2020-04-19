@@ -1,4 +1,7 @@
-# LearningPython
+# Jieqian Learning Python
+[Jieqian-Chen](https://github.com/Jieqian-Chen/)
+
+[E-mail](jieqianchen@foxmail.com)
 ## 学习目标
 1. 学习 Python 语言知识
 2. 完成
