@@ -15,7 +15,7 @@
 ## 学习资源
 1. [Python语言程序设计_北京理工大学_中国大学MOOC(慕课)](https://www.icourse163.org/course/BIT-268001)
 2. [selfteaching/the-craft-of-selfteaching: One has no future if one couldn't teach themself](https://github.com/selfteaching/the-craft-of-selfteaching)
-3. 
+3. [2020Python全栈开发+数据分析课程-培训视频教程-腾讯课堂](https://ke.qq.com/course/1347237?taid=6628259820506789)
 ## 参考文档
 1. [3.8.2 Documentation](https://docs.python.org/3/)
 2. [python-3.8.2-docs-en.epub](books/python-3.8.2-docs-en.epub)
