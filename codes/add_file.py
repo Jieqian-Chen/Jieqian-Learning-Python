@@ -8,18 +8,25 @@
 """
 import os
 
-def creat_txt(path, filename):
+def creat_txt(path, filename, msg = "Created by: Jieqian-Chen."):
     try:
         if not os.path.exists(path):
             os.mkdir(path)
         if not os.path.exists(filename):
-            with open(path + filename, 'a') as f:
-                print("Created by: Jieqian-Chen.", file = f)
+            with open(path + filename, 'w') as f:
+                print(msg, file = f)
                 f.close()
                 print("Creat ok.")
         else:
+            with open(path + filename, 'a') as f:
+                print(msg, file = f)
+                f.close()
+                print("Add ok.")
             print("File exists.")
     except:
         print("Error: creat_txt")
 
-creat_txt("F://00CJQtest/", "test_no1.txt")
+msg = """
+这是一个来自 Python 添加的文本
+"""
+creat_txt("C://CJQ/PythonOut/", "test_no1.txt", msg)

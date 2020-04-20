@@ -10,6 +10,8 @@ Update:
     1.4 修改内容：VCS --> Commit (Ctrl + K) --> Push
     1.5 Push 增删改: VCS --> Git --> Push (Ctrl + Shift + K)
     1.6 多场景同步（协作）
+    1.7 Ctrl + click 可快速查看函数定义
+    1.8
 """
 
 
