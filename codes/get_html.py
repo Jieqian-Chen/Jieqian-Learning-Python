@@ -23,4 +23,9 @@ def get_html(url, head = {"User-Agent":"Mozilla/5.0"}):
         print("Error: get_html")
 
 html = get_html("http://www.baidu.com")
-print(len(html))
+print(html)
+# with open("C://CJQ/html1.txt", 'w') as f:
+#     print(html, file=f)
+#     f.close()
+
+
