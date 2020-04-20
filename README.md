@@ -15,8 +15,9 @@
 3. 
 ## 参考文档
 1. [3.8.2 Documentation](https://docs.python.org/3/)
-2. [Pycharm Keymap Reference](C:\Program Files\PyCharm Community Edition 2020.1\help\ReferenceCard.pdf)
-3. 
+2. [python-3.8.2-docs-en.epub](books/python-3.8.2-docs-en.epub)
+3. [Pycharm Keymap Reference](C:\Program Files\PyCharm Community Edition 2020.1\help\ReferenceCard.pdf) 
+4. 
 ## 学习计划
 1. 熟练使用工具
 2. 设定学习近期目标
@@ -34,3 +35,4 @@
 
 2020.04.20
 使用 Pycharm 远程管理 GitHub, 使用不同电脑，模拟多人协作，体会 VCS 的强大。
+keywords:

@@ -10,14 +10,17 @@
 
 import requests
 
-def get_html(url, head):
+def get_html(url, head = {"User-Agent":"Mozilla/5.0"}):
     try:
+        # 使用 headers 时，可以获取的信息更多
         r = requests.get(url, headers = head)
+        # 不使用 headers 时，只能获得少量信息，并且很多网站不支持 robots 访问
+        # r = requests.get(url)
         r.raise_for_status()
         r.encoding = r.apparent_encoding
         return r.text
     except:
         print("Error: get_html")
 
-html = get_html("http://www.baidu.com", {"User-Agent":"Mozilla/5.0"})
+html = get_html("http://www.baidu.com")
 print(len(html))
