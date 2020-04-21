@@ -35,6 +35,9 @@
 
 ## Update:
 
+### 文件列表
+[PyCharm_tips.md](notes/PyCharm_tips.md)
+
 
 2020/04/20
 - 本地仓库统一存储在: C:\CJQ\'repname'
