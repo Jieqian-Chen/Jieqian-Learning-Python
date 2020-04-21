@@ -18,9 +18,10 @@
 3. [2020Python全栈开发+数据分析课程-培训视频教程-腾讯课堂](https://ke.qq.com/course/1347237?taid=6628259820506789)
 ## 参考文档
 1. [3.8.2 Documentation](https://docs.python.org/3/)
-2. [python-3.8.2-docs-en.epub](books/python-3.8.2-docs-en.epub)
-3. [Pycharm Keymap Reference](C:\Program Files\PyCharm Community Edition 2020.1\help\ReferenceCard.pdf) 
-4. 
+2. [python-3.8.2-docs-en](books/python-3.8.2-docs-en.epub)
+3. [Pycharm Keymap Reference](books/PyCharmKeymapReferenceCard.pdf) 
+4. [The Python Language Reference, Release 3.8.2](books/The Python Language Reference, Release 3.8.2.pdf)
+5. 
 ## 学习计划
 1. 熟练使用工具
 2. 设定学习近期目标
@@ -35,6 +36,9 @@
 
 ## Update:
 
+### 文件列表
+[PyCharm_tips.md](notes/PyCharm_tips.md)
+
 
 2020/04/20
 - 本地仓库统一存储在: C:\CJQ\'repname'
@@ -43,6 +47,7 @@
 - 使用 Pycharm 远程管理 GitHub, 使用不同电脑，模拟多人协作，体会 VCS 的强大。
 
 ### keywords:
+
 ```python
 True
 False
