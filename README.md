@@ -19,8 +19,8 @@
 ## 参考文档
 1. [3.8.2 Documentation](https://docs.python.org/3/)
 2. [python-3.8.2-docs-en.epub](books/python-3.8.2-docs-en.epub)
-3. [Pycharm Keymap Reference](C:\Program Files\PyCharm Community Edition 2020.1\help\ReferenceCard.pdf) 
-4. 
+3. [Pycharm Keymap Reference](books/PyCharmKeymapReferenceCard.pdf) 
+
 ## 学习计划
 1. 熟练使用工具
 2. 设定学习近期目标
