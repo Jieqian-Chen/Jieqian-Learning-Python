@@ -16,7 +16,7 @@ def save_url_image(url):
     except:
         print("Error: save_url_image.")
 
-url = "http://image.ngchina.com.cn/2015/0323/20150323111422966.jpg"
+url = "HTTP://IMAGE.NGCHINA.COM.CN/2015/0323/20150323111422966.JPG"
 root = "E://A_pics//"
 path = root + url.split('/')[-1]
 try:

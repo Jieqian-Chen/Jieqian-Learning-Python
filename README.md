@@ -16,11 +16,11 @@
 1. [Python语言程序设计_北京理工大学_中国大学MOOC(慕课)](https://www.icourse163.org/course/BIT-268001)
 2. [selfteaching/the-craft-of-selfteaching: One has no future if one couldn't teach themself](https://github.com/selfteaching/the-craft-of-selfteaching)
 3. [2020Python全栈开发+数据分析课程-培训视频教程-腾讯课堂](https://ke.qq.com/course/1347237?taid=6628259820506789)
-## 参考文档
+## 参考文档书籍
 1. [3.8.2 Documentation](https://docs.python.org/3/)
-2. [python-3.8.2-docs-en](books/python-3.8.2-docs-en.epub)
-3. [Pycharm Keymap Reference](books/PyCharmKeymapReferenceCard.pdf) 
-4. [The Python Language Reference, Release 3.8.2](books/The Python Language Reference, Release 3.8.2.pdf)
+2. [python-3.8.2-docs-en.epub](books\python-3.8.2-docs-en.epub)
+3. [Pycharm Keymap Reference](books\PyCharmKeymapReferenceCard.pdf) 
+4. [The Python Language Reference, Release 3_8_2](books\The Python Language Reference, Release 3_8_2.pdf)
 5. 
 ## 学习计划
 1. 熟练使用工具
@@ -36,18 +36,36 @@
 
 ## Update:
 
-### 文件列表
-[PyCharm_tips.md](notes/PyCharm_tips.md)
+### 更新日志
 
+#### 2020/04/22
 
-2020/04/20
+- 定向爬虫爬取最好大学 2019 高校排名
+- 安装 beautifulsoup4 库
+- 调整 keymap: 
+1. Copy as plain text = Ctrl + Shift + C; 
+
+2. Show in Explorer = Alt + Shift + E;
+
+3. VCS Pull = Alt + Shift + I;
+
+4. VCS Push = Alt + Shift + O;
+
+   ```python
+   # chr(12288) 中文空格，有效解决中文排版对不齐问题
+   tplt = "{0:^10}\t{1:{3}^10}\t{2:^10}"
+   print(tplt.format("排名","学校名称","总分",chr(12288)))
+   ```
+
+   
+
+#### 2020/04/20
+
 - 本地仓库统一存储在: C:\CJQ\'repname'
 - 测试输出结果统一存储在: C:\CJQ\PythonOut
-- 修改因搜狗输入法软件盘与 PyCharm push 默认快捷键冲突，PyCharm push 改为 Alt + Shift + U
 - 使用 Pycharm 远程管理 GitHub, 使用不同电脑，模拟多人协作，体会 VCS 的强大。
 
 ### keywords:
-
 ```python
 True
 False
