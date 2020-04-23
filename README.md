@@ -11,7 +11,8 @@
 2. 练习 GitHub Repositery 的操作
 3. Markdown 语言使用
 4. 熟悉 Pycharm 
-5. 
+5. 使用 Typora + Pandoc + CSS 将 .md 文件转换成**目标**格式的 .docx 文件
+6. https://www.runoob.com/robots.txt 从 runoob 网上抓取 HTML / CSS 属性字典
 ## 学习资源
 1. [Python语言程序设计_北京理工大学_中国大学MOOC(慕课)](https://www.icourse163.org/course/BIT-268001)
 2. [selfteaching/the-craft-of-selfteaching: One has no future if one couldn't teach themself](https://github.com/selfteaching/the-craft-of-selfteaching)
