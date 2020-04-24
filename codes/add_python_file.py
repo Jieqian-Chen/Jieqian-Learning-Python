@@ -7,7 +7,7 @@
     2. 创建 .py 文件时，自动将预定内容写入，简化操作
 """
 import os
-
+import datetime
 def creat_txt(filename, msg = "Created by: Jieqian-Chen."):
     try:
         if not os.path.exists(filename):
@@ -20,14 +20,16 @@ def creat_txt(filename, msg = "Created by: Jieqian-Chen."):
     except:
         print("Error: creat_txt")
 
-msg = """\"\"\"
+msg1 = """\"\"\"
 @create by Jieqian Chen
 @GitHub repository: https://github.com/Jieqian-Chen/Jieqian-Learning-Python
 @E-mail: jieqianchen@foxmail.com
 @update:
-    1. 
-\"\"\"
-"""
+    1. """
 filename = input("请输入文件名：")
-creat_txt(filename, msg)
+#now = '{:%Y-%m-%d %H:%M:%S}'.format(datetime.datetime.now())
+msg2 = """{:%Y-%m-%d %H:%M:%S}
+\"\"\"
+""".format(datetime.datetime.now())
+creat_txt(filename, msg1 + msg2)
 
